@@ -112,7 +112,7 @@ app.use('/api/webhook', webhookRoutes);
 // ─── Global Middleware ────────────────────────────────────────────────────────
 app.use(cors({
   origin: [
-    'https://golf-project-1.onrender.com',    // ← production frontend
+    'https://golf-frontend-2f42.onrender.com',    // ← production frontend
     'http://localhost:5173',                   // ← local development
     process.env.CLIENT_URL,                   // ← env variable fallback
   ].filter(Boolean),
